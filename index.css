@@ -1,0 +1,131 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  background: #9796f0;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,
+      #fbc7d4,
+      #9796f0);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,
+      #fbc7d4,
+      #9796f0);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#home {
+  background-color: brown;
+}
+
+#apply {
+  align-items: center;
+}
+
+#car {
+  margin-top: -14px;
+}
+
+.whyus {
+  border-radius: 10px;
+  margin-top: 10px;
+  background: rgb(247, 65, 5);
+  background: linear-gradient(90deg,
+      hsla(145, 84%, 73%, 1) 0%,
+      hsla(150, 61%, 48%, 1) 100%);
+  padding: 10px;
+}
+
+.paragraph {
+  margin-top: 25px;
+}
+
+.adjustimg {
+  border-radius: 10px;
+}
+
+.accordiancolor {
+  background-color: black;
+}
+
+select {
+  width: 100%;
+}
+
+.dash {
+  margin: inherit;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #E6E6FA;
+}
+
+.btn-grad{
+  border: none;
+  border-radius: 4px;
+  background-color: #12AD2B;
+  color: white;   
+}
+
+/* Contactus */
+#contact {
+  margin-top: 100px;
+}
+
+/* mlogin */
+.Mlogin {
+  margin-top: 160px;
+}
+
+/* ulogin */
+.Ulogin {
+  margin-top: 160px;
+}
+
+@media only screen and (max-width: 600px) {
+  #border {
+    margin-top: 5px;
+  }
+
+  #bgtext {
+    margin-top: 15vh;
+  }
+
+  .whyus {
+    width: 90%;
+  }
+
+  .mtfororvba {
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #bgtext {
+    margin-top: 20vh;
+  }
+
+  #photo {
+    margin-top: 7vh;
+  }
+
+  #content {
+    padding: 3px;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #bgtext {
+    margin-top: 15vh;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 160px;
+}
+
+body {
+  margin-bottom: 160px;
+}
